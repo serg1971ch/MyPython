@@ -53,3 +53,7 @@ while a < b:
     distination.append(a)
 print("Достижение вашего результата осуществиться через ",len(distination), " дней")
 
+# this only for my first pull request
+def first(a,b):
+    c = a + b
+    return c
