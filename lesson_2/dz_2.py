@@ -9,7 +9,7 @@ while len(my_input) < 10:
     item   = int(input("Please enter a number to be added 10 elements, if you want to finish type ==> 100:\n"))
     print(item)
     my_input.append(item)
-    if item == 00:
+    if item == 100:
         break
 print("Исходный массив: ",my_input)
 if len(my_input) % 2 == 0:
